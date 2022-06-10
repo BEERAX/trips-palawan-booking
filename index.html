@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Palawan Booking, Palawan book, Palawan trip">
+    <meta name="keywords" content="Palawan booking, van rental, car rental, palawan trip, elnido, puerto princesa">
+    <meta name="author" content="TRIPS PALAWAN">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trips Palawan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--Nav Bar-->
+    <nav class="navbar">
+        <div class="navbar_container">
+        <div class="logo"><a href="#" id="navbar_logo">TRIPS PALAWAN</a></div>
+            <ul class="navbar_menu">
+                <li class="navbar_item"><a href="#" class="main_btn">Trips</a></li>
+                <li class="navbar_item"><a href="#" class="main_btn">Van Rental</a></li>
+                <li class="navbar_item"><a href="#" class="main_btn">Car Rental</a></li>
+                <li class="navbar_item"><a href="#" class="main_btn">About</a></li>
+                <li class="navbar_item"><a href="#" class="main_btn">Contacts</a></li>
+            </ul>
+        </div>
+    </nav>
+
+<!--Pictures of Palawan Section-->
+<div class="slideshow-container">
+    <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+            <img src="img/showpic.png" class="slide">
+        <div class="text-slide">El Nido, Palawan</div>
+    </div>
+    
+    <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+            <img src="img/showpic2.png" class="slide">
+        <div class="text-slide">Port Barton</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+            <img src="img/showpic3.png" class="slide">
+        <div class="text-slide">Underground River</div>
+    </div>
+
+</div>
+<br>
+<div class="main-dot">
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+</div>
+
+<!--BOOKING FORM-->
+<div class="booking-container">
+    <form action="process.php" method="POST" enctype="application/x-www-form-urlencoded">
+        <div class="pickuploc">
+            <label for="pickup-point" class="pickup-loc">Pick-point Location</label>
+            <input type="search" name="search" id="search" class="searchlocation" placeholder="Where you Pickup?">
+        </div>
+        <br>
+        <div class="dateofpickup">
+            <label for="datepickup" class="datepickup">Pick up Date</label>
+            <input type="date" name="datepu" id="datepu" class="datepu" placeholder="Date of Pickup">
+        </div>
+        <br>
+        <div class="timeofpickup">
+            <label for="timepickup" class="timepickup">Pick up Time</label>
+            <input type="time" name="timepu" id="timepu" class="timepu" placeholder="Time of Pickup">
+        </div>
+        <br>
+        <div class="dateofdropoff">
+            <label for="datedrop" class="datedrop">Drop off Date</label>
+            <input type="date" name="datedo" id="datedo" class="datedo" placeholder="Date of Drop off">
+        </div>
+        <br>
+        <div class="timeofdropoff">
+            <label for="timedropoff" class="timedropoff">Pick up Time</label>
+            <input type="time" name="timedo" id="timedo" class="timedo" placeholder="Time of Drop off">
+        </div>
+        <br>
+    </form>
+</div>
+
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus dicta, sunt nulla enim atque consectetur deserunt ex tenetur impedit voluptate nesciunt porro odio, obcaecati, dolore repellendus ad et beatae repellat modi libero nobis. Corrupti veritatis dolorum vitae ad itaque repellendus soluta architecto impedit illo, facere eum officiis, dolores non quos culpa sunt debitis ut unde aliquid quaerat incidunt error ea magni doloremque. Natus obcaecati non porro aspernatur quia laborum necessitatibus optio nesciunt praesentium vitae perferendis at quaerat mollitia, suscipit distinctio dicta est temporibus. Quisquam minus ab animi corporis incidunt perspiciatis cum commodi earum. Magni explicabo fugiat ex debitis nulla placeat iusto quo, distinctio eos vitae possimus sit maiores nisi eius ipsam iste perferendis numquam enim adipisci. Sit reiciendis esse eum ducimus id est qui quia provident eos accusantium totam quae deleniti soluta porro consectetur repudiandae, eveniet saepe suscipit nostrum dignissimos aliquam dolorem perspiciatis sed voluptatum. Ratione soluta repudiandae maiores numquam minus, aspernatur atque perferendis sit, provident dignissimos qui mollitia. Facilis dolorum cumque libero accusamus blanditiis tempore ducimus dolores nisi hic, alias atque modi eveniet non pariatur fuga vel eum eaque sint quam adipisci? Iste illo quidem voluptates sed rerum, quam ad est aperiam autem pariatur quia minima magnam fugiat nemo?</p>
+
+
+
+<script src="app.js"></script>
+</body>
+</html>
